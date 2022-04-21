@@ -150,7 +150,7 @@ header .navigation li a:hover {
 }
 
 .thumb li img {
-  max-width: 50px;
+  max-width: 60px;
 }
 
 .thumb li.active {
@@ -172,4 +172,12 @@ header .navigation li a:hover {
 
 .thumb li.active::before {
   opacity: 1;
+}
+
+.sci {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  list-style: none;
 }
